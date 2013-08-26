@@ -1,2 +1,4 @@
+removed_sources:
+  Archive-Tar-Wrapper-0.14.tar.gz: d681b3eec050e0691322cbe549fdd8067fa3a87c
 sources:
-  "Archive-Tar-Wrapper-0.14.tar.gz": d681b3eec050e0691322cbe549fdd8067fa3a87c
+  Archive-Tar-Wrapper-0.18.tar.gz: 5a68dd97dcaad781ecf6254d15ae0a387542922b
