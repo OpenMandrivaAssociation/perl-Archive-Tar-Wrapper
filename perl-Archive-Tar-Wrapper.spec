@@ -1,5 +1,4 @@
-%define upstream_name    Archive-Tar-Wrapper
-%define upstream_version 0.18
+%define upstream_name    Archive-Tar-Wrapper%define upstream_version 0.19
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +8,7 @@ Summary:	API wrapper around the 'tar' utility
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Archive/Archive-Tar-Wrapper-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Archive/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Cwd)
@@ -60,5 +59,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Thu Feb 03 2011 Shlomi Fish <shlomif@mandriva.org> 0.130.0-1
 + Revision: 635724
 - import perl-Archive-Tar-Wrapper
+
 
 
