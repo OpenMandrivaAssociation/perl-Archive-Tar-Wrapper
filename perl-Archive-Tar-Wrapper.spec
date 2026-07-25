@@ -1,7 +1,8 @@
-%define upstream_name    Archive-Tar-Wrapper%define upstream_version 0.19
+%define upstream_name    Archive-Tar-Wrapper
+%define upstream_version 0.42
 
 Name:		perl-%{upstream_name}
-Version:	0.42
+Version:%{upstream_version}
 Release:	1
 
 Summary:	API wrapper around the 'tar' utility
