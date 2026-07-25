@@ -1,14 +1,14 @@
 %define upstream_name    Archive-Tar-Wrapper%define upstream_version 0.19
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	0.42
+Release:	1
 
 Summary:	API wrapper around the 'tar' utility
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Archive/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/haarg/Archive-Tar-Wrapper
+Source0:	https://cpan.metacpan.org/authors/id/H/HA/HAARG/Archive-Tar-Wrapper-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
