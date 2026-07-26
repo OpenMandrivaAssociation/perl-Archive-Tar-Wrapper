@@ -1,15 +1,13 @@
 %define upstream_name    Archive-Tar-Wrapper
-%define upstream_version 0.42
-
 Name:		perl-%{upstream_name}
-Version:%{upstream_version}
-Release:	1
+Version:0.42
+Release:	2
 
 Summary:	API wrapper around the 'tar' utility
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/haarg/Archive-Tar-Wrapper
-Source0:	https://cpan.metacpan.org/authors/id/H/HA/HAARG/Archive-Tar-Wrapper-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/H/HA/HAARG/Archive-Tar-Wrapper-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -28,7 +26,7 @@ logical paths in the tarball and the 'real' files in the temporary
 directory on disk.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
